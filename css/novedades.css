@@ -1,0 +1,46 @@
+.novedades {    
+    max-width: 1430px;
+    margin: 0 auto;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.head-novedades {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.head-novedades > .button {
+    margin-right: 1em;
+}
+
+.head-novedades > .button:hover {
+    background-color: rgb(65, 149, 228);    
+}
+
+/* Se unifica en .container en styles.css*/
+.container-novedades { 
+     display: flex;
+     flex-wrap: wrap;     
+     justify-content: space-around;
+ }
+ .card-container-novedades {
+     display: flex;
+     width: 75%;
+     justify-content: space-around;
+ }
+
+ aside {
+     align-content: center;
+     width: 25%;
+ }
+
+ .novedades > .container-novedades > aside {
+     align-self: flex-end;
+     margin-right: -3rem;
+ }
